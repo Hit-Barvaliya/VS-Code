@@ -1,0 +1,76 @@
+#d1 {
+    height : 100px;
+    width : 100px;
+    background-color :#74c974;
+    margin : 10px;
+    font-size : 10px;
+}
+#d2 {
+    /* here it will get the length in percentage in the previous devision */
+    height : 50%;
+    width : 50%;
+    background-color: greenyellow;
+    margin : 25px;
+    display: inline-block;
+    
+    font-size : 2em;  /*font size is 2*parent_font_size = 20px*/
+}
+#p1 {font-size: 2rem;}      /*font size is 2*font_size_of_body_text which is dependent on browser*/
+
+#d3 {
+    width : 10vw;   /*this value is in percentage of our screen */
+    height: 10vh;
+    background-color: rgb(242, 137, 9);
+}
+
+.c1 {
+    height : 100px;
+    width : 100px;
+    background-color: blueviolet;
+    border : 3px solid black;
+    display : inline-block;
+}
+
+/*here 5 type of position  :- static,relative,absolute,fixed,sticky*/
+/*z-index will show in box1 box2*/
+#box1 {
+    /*it is by-default*/
+    position : static;  /* we can not change the value of top,buttom,right,left z-index*/
+}
+#box2 {
+    /*by-default a which was write last that will print in top*/
+    /*when the z value was, which box has more z-index value that was print at top */
+    position: relative;       /* in the type block will move from it's current position*/
+    top : 20px;
+    right :-30px;
+    z-index : 1;
+}
+#box3 {
+    position : absolute;    /*in this type position, it is consedered from it's closest ancestor(parent-block)*/
+    top : 20px;    /* for this box ancester block is body-block so value is consider relative body tag */
+    left : 200px;   /*for better understanding change the value in inspect in chrom-page*/
+    /*it will remove from the document flow*/
+}
+/*we use this type to make a footer and header*/
+#box4 {
+    position : fixed;   /*in this position type, value is relative form web-page  */
+    top : 100px;         
+    right : 10px;
+    /*it will remove from the document flow*/
+    /* the position of this block is constant on the screen when we scroll the screen , we can check this to add mny text after this*/
+}
+#box5 {
+    position : sticky;  /* same as absolute*/
+    top : 10px;         /* in scrolling when this box will reach at top after that this boxx will stop at top*/
+    left : 20px;        /* we can check this to add many text befor this box and after this box*/
+    z-index : -3;
+}
+
+#box5 {
+    background-image: url("cat_photo.jpg");     /*cover:- no empty sapce in box,contain:- full image will apear but box may not be full fill*/
+    background-size: contain;     /*when box was not full fill, image will repeat , auto:- by-default*/
+    /* background-repeat: no-repeat; */     /*for stop the repetion*/
+}
+
+
+

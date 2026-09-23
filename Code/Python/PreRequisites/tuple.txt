@@ -1,0 +1,19 @@
+✅ 2. Tuples Are Immutable
+
+You cannot change a tuple after creating it.
+    ```````
+No operations like:
+sort()
+append()
+reverse()
+
+✅ 3. Things You Cannot Do with Tuples
+
+Because tuples are immutable:
+
+No x.sort()
+No x.append()
+No x.reverse()
+These give AttributeError.
+
+

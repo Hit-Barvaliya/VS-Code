@@ -1,0 +1,27 @@
+✅ 10. String Library (Built-in Methods)
+
+Python has many ready methods:
+
+Common ones:
+
+lower() – convert to lowercase
+
+upper() – convert to uppercase
+
+capitalize() – first letter uppercase
+
+strip() – remove spaces (both sides)
+
+lstrip() – remove left spaces
+
+rstrip() – remove right spaces
+
+find(sub) – search substring
+
+replace(old, new) – replace substring
+
+startswith() – check prefix
+
+split() – split into list
+
+join() – join list into string

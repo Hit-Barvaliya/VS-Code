@@ -1,0 +1,7 @@
+
+to make a new project we run this command :- python manage.py startapp newApp_name
+
+for the Django folder, I was created a own virtual enviroment which name is test
+-> enter into the test(virtual enviroment) run this :-  D:\Programming\Django\test\Scripts\Activate.ps1   
+
+-> run th page execute this :- python manage.py runserver

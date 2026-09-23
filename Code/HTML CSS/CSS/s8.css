@@ -1,0 +1,21 @@
+#div1 {
+    height: 200px;
+    width : 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    border : 15px solid yellow;
+    border-top : 15px solid aqua;
+
+
+    animation: mySetAni 3s ease-in-out 0s infinite reverse;
+
+}
+
+@keyframes mySetAni {
+    to{
+        rotate: 0deg;
+    }
+    from{
+        rotate: 360deg;
+    }
+}

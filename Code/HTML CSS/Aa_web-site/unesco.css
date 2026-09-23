@@ -1,0 +1,58 @@
+#tajmahal{
+    height: 300px;
+    width : 700px;
+    background-color: #D4AF37;
+    color : #333333 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+ 
+.festival-img{    
+    height: 100px;
+}
+#but  {
+    text-align: right;
+}
+
+#qutubminar{
+    height: 300px;
+    width : 700px;
+    background-color: #8B3A3A;
+    color : #fff5e1 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#suntemple{
+    height: 300px;
+    width : 700px;
+    background-color: #B87333;
+    color : #f5efe6 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#ellora{
+    height: 300px;
+    width : 700px;
+    background-color: #4B4B4B;
+    color : #e1c16e ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#hampi{
+    height: 300px;
+    width : 700px;
+    background-color: #A0522D;
+    color : #faebd7 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}

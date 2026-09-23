@@ -1,0 +1,70 @@
+/*for more example search mdn any-thing*/
+h1 {
+    color : rgb(239, 9, 9);
+}
+p {
+    color : brown;
+}
+
+button {
+    color : rgb(201, 96, 159);
+    background-color :rgb(0, 255, 136)
+    /* this is comment */
+}
+
+body {
+    background : #00ffff;
+}
+
+/* this is for alignment*/
+#pr {
+    text-align : center;
+    /* three alignment right,left,denter*/
+}
+h1 {
+    text-align : start;
+    /* 
+    ->for some language which start from left like english, hindi, gujrati :- start=left
+    ->some language which start from left like urdu :- start=right;
+    */
+}
+
+h2 {
+    text-decoration: underline;
+    /* some ohter option :- overline,line-through,none*/
+}
+
+#pra1 {
+    text-decoration: blue wavy underline;
+}
+#pra2 {
+    /*we can make font lighter,normal,bold,bolder*/
+    /* value of font-weight is 100 to 900*/
+    font-weight : lighter;
+}
+
+/* this is for change the font-style*/
+#fontfamily1 {
+    font-family: Arial, Helvetica, sans-serif
+    /*when some browser not support fist font it will set 2nd style*/
+}
+#fontfamily1 {
+    font-family :system-ui;
+}
+
+/* change the size of text, it will measure in px(pixel)*/
+#px1 {font-size : 25px}     
+#px2 {font-size : 16px}     /* this is by default */
+#px3 {font-size : 10px}
+
+/*we can change the height between two line*/
+#hig1 {
+    line-height: 35px;      /* write 'normal' for normal sapce*/
+    text-transform: capitalize;     
+    /*
+    capitalize :- first letter is capital of each word.
+    uppercase & lowercase :- change all the letter in uppercase & lowercase
+    
+    none :- it will remove previous text-transform and print as it is
+    */
+}     

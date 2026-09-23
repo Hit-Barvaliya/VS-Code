@@ -1,0 +1,162 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MaxSubArray",
+            "request": "launch",
+            "mainClass": "MaxSubArray",
+            "projectName": "Code_6599ea1c"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "Code_6599ea1c"
+        },
+        {
+            "type": "java",
+            "name": "generic_class",
+            "request": "launch",
+            "mainClass": "generic_class",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "CIE",
+            "request": "launch",
+            "mainClass": "CIE",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "CIE",
+            "request": "launch",
+            "mainClass": "Java.AaExam.CIE",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "EchoClient",
+            "request": "launch",
+            "mainClass": "EchoClient",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "tree_Operation",
+            "request": "launch",
+            "mainClass": "tree_Operation",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "a51_this_super_Method",
+            "request": "launch",
+            "mainClass": "a51_this_super_Method",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "InfixToPostfix",
+            "request": "launch",
+            "mainClass": "InfixToPostfix",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "T_46_UpperBound_and_LowerBound",
+            "request": "launch",
+            "mainClass": "T_46_UpperBound_and_LowerBound",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "T_297_intro_stack_and_queue",
+            "request": "launch",
+            "mainClass": "T_297_intro_stack_and_queue",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "a33_enhanced_loop",
+            "request": "launch",
+            "mainClass": "a33_enhanced_loop",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "a92_arrayList",
+            "request": "launch",
+            "mainClass": "a92_arrayList",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "variable",
+            "request": "launch",
+            "mainClass": "class_example.variable",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "words",
+            "request": "launch",
+            "mainClass": "Java_Special.words",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "x",
+            "request": "launch",
+            "mainClass": "x",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "xyz",
+            "request": "launch",
+            "mainClass": "xyz",
+            "projectName": "Programming_11e76ca0"
+        },
+        {
+            "type": "java",
+            "name": "ABCD",
+            "request": "launch",
+            "mainClass": "ABCD",
+            "projectName": "Programming_11e76ca0"
+        }
+    ]
+}

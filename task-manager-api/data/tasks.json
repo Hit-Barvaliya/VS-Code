@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "title": "Persistent task",
+    "description": "Saved to JSON",
+    "completed": false
+  }
+]

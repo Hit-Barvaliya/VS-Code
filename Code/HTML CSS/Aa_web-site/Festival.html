@@ -1,0 +1,121 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="festival.css">
+        <style>
+            footer{
+                font-size: 15px;
+                background-color: #4E342E;
+                color: white;
+                padding : 10px
+            }
+            h1{
+            color: #fff;
+            text-decoration: whitesmoke wavy underline;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 1); 
+            }
+
+            body {
+            background-image: url("Festival-background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            }
+        </style>
+    </head>
+
+    <body> 
+        
+        <h1> <center>Colors and Joy of Indian Festivals</center></h1>
+        <div id="but">
+    <button><a href="index.html"><img src ="logo.png" height="50"></a></button>
+        </div>         <hr>
+
+         <section class="sect2"><center>
+            
+            <div id="diwali">
+                <h2><center>Diwali : Festival of light</center></h2>
+                 <!-- <img src="diwali1.jpg" alt="Diwali" class="festival-img"> -->
+
+                
+                <div id="slider" style="width: 150px; height: 100px;">
+                    <img src="diwali1.jpg" class="slide" style="display:block;">
+                    <img src="diwali2.jpg" class="slide">
+                    <img src="diwali3.jpg" class="slide">
+                    <button id="prev">❮</button>
+                    <button id="next">❯</button>
+                </div>
+
+
+                <p> &#11162 Deepavali comes from the Sanskrit word meaning 'row or series of lights'.</p>
+                <p> &#11162 Holi also commemorates the divine love of Radha and Krishna, and is celebrated with music, traditional sweets like gujiya, and bonfires known as Holika Dahan on the eve of Holi. </p>
+                <p> More information about this festival :- <a href="https://www.britannica.com/topic/Hinduism/The-prehistoric-period-3rd-and-2nd-millennia-bce" target="_blank">Click Here</a></p>
+            </div>
+
+             <div id="holi">
+                <h2><center>Holi : Festival of Colors</center></h2>
+                 <img src="holi1.jpg" alt="Holi" class="festival-img">
+
+
+
+                <pr> &#11162 Holi is a vibrant Hindu festival celebrated with colored powders, water balloons, and joyous dancing. It marks the arrival of spring and symbolizes the victory of good over evil.</pr>
+                <p> &#11162 Diwali, also known as the festival of lights, is a five-day celebration. These five days are: Dhanteras, Naraka Chaturdashi (also known as Chhoti Diwali), the main Diwali day (Lakshmi Pujan), Govardhan Puja, and Bhai Dooj. </p>
+                <p> More information about this festival :- <a href="https://www.britannica.com/topic/Holi" target="_blank">Click Here</a></p>
+            </div>
+
+            <div id="eid">
+                <h2><center>Eid : festival of peace and togetherness.</center></h2>
+                 <img src="eid1.jpg" alt="Eid" class="festival-img">
+                <pr> &#11162 Eid is a significant Islamic festival celebrated after the holy month of Ramadan (Eid al-Fitr) or during the time of Hajj (Eid al-Adha). It is a time of prayer, charity, and expressing gratitude to Allah. </pr>
+                <p> &#11162  On Eid, Muslims wear new clothes, attend special prayers at the mosque, share festive meals like biryani and sheer kurma, and give Zakat al-Fitr or Qurbani to help those in need. </p>
+                <p> More information about this festival :- <a href="https://www.britannica.com/topic/Eid-al-Fitr" target="_blank">Click Here</a></p>
+            </div>
+
+            <div id="christmas">
+                <h2><center>Christmas : a festival of the birth of Jesus Christ</center></h2>
+                 <img src="christmas1.jpg" alt="Christmas" class="festival-img">
+                <pr> &#11162  Christmas is a Christian festival celebrated on December 25th to mark the birth of Jesus Christ, symbolizing hope, love, and salvation. </pr>
+                <p> &#11162  The festival is celebrated with decorated Christmas trees, exchanging gifts, singing carols, and family gatherings, often featuring festive meals and Santa Claus bringing joy to children. </p>
+                <p> More information about this festival :- <a href="https://www.britannica.com/topic/Christmas" target="_blank">Click Here</a></p>
+            </div>
+
+         </center></section>
+ 
+        <hr>
+         <footer>
+            <p> &#169 2025 Incredible India | Made with &#10084 </p>
+            <p> Email: contact@incredibleindia.in </p>
+            <p> Phone: +91 12345 67890 </p>
+            <p> Please give your Feedback.</p>
+            <p> Feedback Link :- <a href=" feedback.html"style="color:aqua">Feedback</a></p>
+        </footer>
+
+
+
+        <script>
+    // Slider
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.display = i === index ? "block" : "none";
+      });
+    }
+
+    document.getElementById("next").onclick = () => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    };
+
+    document.getElementById("prev").onclick = () => {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    };
+  </script>
+
+
+
+
+    </body>
+</html>

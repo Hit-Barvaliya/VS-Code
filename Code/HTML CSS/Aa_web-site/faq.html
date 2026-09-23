@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>FAQs - Indian Culture</title>
+  <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+
+    <header>
+            <button style="align-self: left;"><a href="index.html"><img src ="logo.png" height="50"></a></button>
+            <center> FAQs - Indian Culture</center>
+    </header>
+
+  <div class="container">
+
+    <!-- General -->
+    <div class="faq-category">
+      <h2>🌍 General</h2>
+
+      <button class="accordion">What is the purpose of this website?</button>
+      <div class="panel"><p>This website showcases the richness of Indian culture through its art, heritage, festivals, and travel destinations.</p></div>
+
+      <button class="accordion">Who can use this website?</button>
+      <div class="panel"><p>Anyone interested in Indian heritage—students, travelers, researchers, and enthusiasts.</p></div>
+    </div>
+
+    <!-- Art & Handicrafts -->
+    <div class="faq-category">
+      <h2>🎨 Art & Handicrafts</h2>
+
+      <button class="accordion">What are ancient Indian art forms?</button>
+      <div class="panel"><p>They include temple carvings, cave paintings like Ajanta-Ellora, and traditional sculpture work.</p></div>
+
+      <button class="accordion">What are Indian handicrafts?</button>
+      <div class="panel"><p>Handicrafts include textiles, pottery, jewelry, wooden art, and more — all regionally inspired.</p></div>
+
+      <button class="accordion">What is mural painting?</button>
+      <div class="panel"><p>Mural painting is large-scale art directly on walls, commonly seen in Kerala, Tamil Nadu, and Rajasthan.</p></div>
+    </div>
+
+    <!-- Tourism -->
+    <div class="faq-category">
+      <h2>🛕 Tourism</h2>
+
+      <button class="accordion">How are travel spots categorized?</button>
+      <div class="panel"><p>We organize destinations by category: hill stations, beaches, temples, forts, and cultural getaways.</p></div>
+
+      <button class="accordion">Can I find spiritual places here?</button>
+      <div class="panel"><p>Yes, we feature spiritual journeys through major temples, holy rivers, and pilgrimage sites.</p></div>
+
+      <button class="accordion">Are the locations good for families?</button>
+      <div class="panel"><p>Yes, most destinations suit family visits with historical, religious, and natural appeal.</p></div>
+    </div>
+
+    <!-- Festivals -->
+    <div class="faq-category">
+      <h2>🎉 Festivals & Culture</h2>
+
+      <button class="accordion">Which festivals are included?</button>
+      <div class="panel"><p>We cover Diwali, Holi, Navratri, Pongal, Bihu, Eid, Christmas, and many more traditional festivals.</p></div>
+
+      <button class="accordion">Is festival info region-specific?</button>
+      <div class="panel"><p>Yes, we highlight how each state or region celebrates uniquely (e.g., Onam in Kerala, Durga Puja in Bengal).</p></div>
+
+      <button class="accordion">Do you share the cultural history?</button>
+      <div class="panel"><p>Yes, every festival section includes the mythological or historical background behind the celebration.</p></div>
+    </div>
+
+    <!-- Access -->
+    <div class="faq-category">
+      <h2>🔐 Access & Support</h2>
+
+      <button class="accordion">Do I need an account to view content?</button>
+      <div class="panel"><p>No, all content is freely accessible to everyone.</p></div>
+
+      <button class="accordion">Is this website mobile-friendly?</button>
+      <div class="panel"><p>Yes, the layout adjusts perfectly for mobiles, tablets, and desktops.</p></div>
+
+      <button class="accordion">Can I view in dark mode?</button>
+      <div class="panel"><p>This version uses a light theme. A dark mode switch may be added soon!</p></div>
+    </div>
+
+  </div>
+
+  <footer> &#169 2025 Indian Culture Project. All rights reserved.</footer>
+
+  <script>
+    const acc = document.getElementsByClassName("accordion");
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        panel.style.display = (panel.style.display === "block") ? "none" : "block";
+      });
+    }
+  </script>
+
+</body>
+</html>

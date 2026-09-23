@@ -1,0 +1,57 @@
+.festival-img{    
+    height: 100px;
+}
+#but  {
+    text-align: right;
+}
+
+#northplace{
+    height: 400px;
+    width : 700px;
+    background-color: #F4C430;
+    color : #4b1e1e ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+ #eastplace{
+    height: 400px;
+    width : 700px;
+    background-color: #2f4f4f;
+    color : #FDF5E6 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#westplace{
+    height: 400px;
+    width : 700px;
+    background-color: #A0522D;
+    color : black ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#southplace{
+    height: 400px;
+    width : 700px;
+    background-color: #6E8B3D;
+    color : #4b1e1e ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#island{
+    height: 400px;
+    width : 700px;
+    background-color: #00B8D4;
+    color : white ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+    } 

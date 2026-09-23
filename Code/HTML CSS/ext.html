@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>Documet</title>
+  </head>
+
+  <body>
+
+    <p>This is first table :- </p>
+
+    <table>
+      <caption>Information</caption>
+      <thead>
+        <style>
+          th,td{
+            background-color: aqua;
+            border : 3px solid red;
+          }
+        </style>
+        <tr>
+          <th>No. :- </th>
+          <th colspan="2">Location</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Village</th>
+          <th>Taluka</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hit</td>
+          <td>Virnagar</td>
+          <td>jasdan</td>
+        </tr>
+        <tr>
+          <td>Rishabh</td>
+          <td>ingorala</td>
+          <td>babra</td>
+        </tr>
+        <tr>
+          <td>Rishit</td>
+          <td>rajgadh</td>
+          <td>kotda sangani</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>This is Student information :- </p>
+      
+    <form>
+
+    <label>
+    <p style="display: inline;">Enter your name :- </p>
+    <input type="text" placeholder="Name" style="display: inline;"></input>
+    </label>
+<hr>
+    <lable>
+    <p style="display: inline;">your rollnumber :- </p>
+    <input type="text" placeholder="rollnumber" style="display: inline;"></input>
+    </lable>
+<hr>
+
+<p> select your STD :- </p>
+    <label>
+      <input type="radio" value="class XI" id="classxi" name="class"><p style="display: inline;">class XI</p>
+    </label>
+    <label>
+      <input type="radio" value="class XII" id="classxii" name="class"><p style="display:inline">class XII</p>
+    </label>
+
+<hr>
+
+    <p>Select your subject :- </p>
+    <label>
+      <input type="checkbox" value="DSA" id="dsa" name="subject"><p style="display:inline">DSA</p>
+    </label>
+
+    <label>
+      <input type="checkbox" value="WDF" id="wdf" name="subject"><p style="display:inline">WDF</p>
+    </label>
+
+    <label>
+      <input type="checkbox" value="OOP" id="oop" name="subject"><p style="display:inline">OOP</p>
+    </label>
+<hr>
+    <p>chose your city name from the list :- </p>
+
+    <select name="city">
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Agra">Agra</option>
+    </select>
+
+<hr>
+    <label>
+      <P>Enter your Address :- </P>
+      <textarea name="address" id="101" placeholder="Address"></textarea>
+    </label>
+
+    <input type="submit" value="submit">
+
+    </form>
+    
+
+
+  </body>
+
+</html>

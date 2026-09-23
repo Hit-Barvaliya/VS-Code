@@ -1,0 +1,43 @@
+This video serves as a fundamental introduction to Graph data structures, covering terminology, types, and conventions that are essential for subsequent topics in graph theory.
+
+### Summary of Key Concepts:
+
+**1. Basic Graph Terminology**
+
+* **Nodes (or Vertices):** The circular objects in a graph. They are typically represented by numbers, and there is no specific order for numbering them . The number of vertices is denoted by **V**.
+* **Edges:** The lines connecting two nodes.
+
+**2. Types of Graphs**
+
+* **Undirected Graph:**
+    * Edges have no arrows, meaning the connection is bi-directional .
+    * An edge between node **u** and **v** implies an edge from **u** to **v** and an edge from **v** to **u** .
+    * A tree is a specific type of undirected graph.
+* **Directed Graph:**
+    * Edges have arrows, indicating a one-way connection (a **directed edge**) .
+    * If there is an arrow from 1 to 4, you can go from 1 to 4, but not necessarily from 4 back to 1 .
+    * A directed graph can still have bi-directional edges (two opposing arrows between two nodes) .
+
+**3. Cycles in a Graph**
+
+* **Cycle:** A path that starts at a node and returns to the same node .
+* **Undirected Cyclic Graph:** An undirected graph that contains at least one cycle .
+* **Directed Acyclic Graph (DAG):** A directed graph that contains **no cycles** . This term will be used frequently in future lectures.
+
+**4. Path**
+
+* **Definition:** A sequence of reachable vertices where the adjacent nodes in the sequence must have an edge between them.
+* A key rule for a path is that **a node cannot appear twice** in the path.
+
+**5. Degree**
+
+* **Degree (for Undirected Graphs):** The total number of edges attached to a node .
+    * **Property:** The sum of all degrees in a graph is equal to **twice the number of edges (2E)** .
+* **Degree (for Directed Graphs):** Since edges are directional, degrees are separated:
+    * **In-Degree:** The number of edges coming **into** a node (incoming arrows) .
+    * **Out-Degree:** The number of edges going **out of** a node (outgoing arrows) .
+
+**6. Edge Weights**
+
+* **Weighted Graph:** A graph where every edge is assigned a numerical value, or **weight** 
+* **Unweighted Graph:** If weights are not explicitly assigned in a problem, they are assumed to be **unit weights (1)**

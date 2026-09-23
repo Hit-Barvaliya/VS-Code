@@ -1,0 +1,21 @@
+
+ ==> we have two type of traversal techniques for tree :- 1) BFS 2) DFS
+ * BFS :-  Breadth-First Search     [level-by-level traversal]
+ * DFS :- Depth-First Search    [this is in-order , pre-order , post-order]
+
+
+ * This is for all order :- in-order , pre-order , post-order
+Time-complexity of In-order :- O(n)
+Space-complexity of In-order :- 
+    |->For the Worst-case :- O(n) 
+        {
+        The size of stack is proportional to the height of tree
+        This tree have only left or right child
+        }
+    |-> For the Average-Case :- O(log n)
+        {
+        This is a balanced tree
+        }
+
+ * A tree is a specific type of undirected graph
+

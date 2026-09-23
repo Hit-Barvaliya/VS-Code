@@ -1,0 +1,57 @@
+.festival-img{
+    height: 100px;
+}
+#but{
+    text-align: right;
+}
+
+#northcloth{
+    height: 300px;
+    width : 700px;
+    background-color: #FFF8E1;  
+    color : #800000 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#eastcloth{
+    height: 300px;
+    width : 700px;
+    background-color: #E1F5FE;  
+    color : #283593 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#westcloth{
+    height: 300px;
+    width : 700px;
+    background-color: #FFCCBC;  
+    color : #5d4037 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#southcloth{
+    height: 300px;
+    width : 700px;
+    background-color: #FBE7A1;  
+    color : #2e7d32 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#moderncloth{
+    height: 300px;
+    width : 700px;
+    background-color: #F5F5F5;  
+    color : #000000 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}

@@ -1,0 +1,62 @@
+
+
+a {
+    background-color: aquamarine;
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+.nevbar {
+    background-color : pink;
+    display : flex;
+    justify-content: space-evenly;
+    
+}
+li {
+    list-style-type: none;
+}
+
+#outer {
+    height : 200px;
+    width : 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner {
+    height: 100px;
+    width : 100px;
+    background-color: aqua;
+}
+
+div {
+    height : 100px;
+    width : 100px;
+    background-color : black;
+}
+
+/*this will not in the set*/
+@media (width : 325px) {   /* this will work when widt is exact 600px*/
+    div {
+        background-color: rgb(255, 225, 0);
+    }
+}
+
+ @media (min-width : 500px) {    /*this will work when width is 500px or high */
+    div {
+        background-color: grey;
+    }
+}
+
+@media (max-width : 300px){     /*this wiil work when width is 300px or less*/
+    div {
+        background-color :turquoise ;
+    }
+}
+ 
+@media (min-width : 350px) and (max-width : 450px) {
+    div { 
+        background-color :deeppink;
+    }
+}

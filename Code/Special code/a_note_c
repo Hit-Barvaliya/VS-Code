@@ -1,0 +1,11 @@
+/*
+1. #include<stdlib> header file is used for srand & rand in-built function
+                                            ------------
+    -> this function is used to chose random number.
+
+2. #include<conio.h> header file is used for kbhit() function
+                                             -------
+    -> ths function is used to know any key from keybord is pressed or not
+
+3. 
+*/

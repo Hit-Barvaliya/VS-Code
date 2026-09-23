@@ -1,0 +1,22 @@
+*{
+    padding : 0;
+    margin : 0;
+    color : white;
+}
+
+#di1 {
+    height : 100px;
+    width : 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+a {
+    margin-right: 130px;
+}
+#nevbar {
+    height : 60px;
+    background-color: #0f1111;
+}
+#logo {
+    color : yellow;
+}

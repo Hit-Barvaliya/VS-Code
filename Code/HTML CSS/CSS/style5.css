@@ -1,0 +1,130 @@
+#div1{
+    height : 150px;
+    width : 150px;
+    font-size: 15x;
+    background-color : aqua;
+    border : 2px solid black;
+    
+    /*propertyname | duration | timingofunction | delay*/
+    transition: all 2s ease-in 1ms;
+}
+
+#div1:hover {       /*this will work when we hover(move cursor on the box)*/
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    
+}
+#div2:active {      /*this will work when the box is in the activ-state(that time of duration when we click on the box)*/
+    background-color: pink;
+    color: red;
+}
+
+
+#div2{
+    height : 150px;
+    width : 150px;
+    font-size: 15x;
+    background-color : aqua;
+    position : absolute;
+    /* top : 250px;
+    left : 100px; */
+    border : 2px solid black;
+    rotate :  90deg;     /*it will give rotation*/
+/*it will also done with 3d-object with respect to X,Y,Z axis :- rotate : x 45deg;*/
+}
+
+#div3{
+    height : 150px;
+    width : 150px;
+    font-size: 15x;
+    background-color : aqua;
+    border : 2px solid black;
+    
+    transition:all 2s ease-in ;
+    scale: 0.7; /* we can increase or decrease the size of element*/
+
+}
+
+#div4{
+    height : 150px;
+    width : 150px;
+    font-size: 15x;
+    background-color : aqua;
+    border : 2px solid black;
+    
+    transition: all 2s ease;   
+    
+}
+#div4:hover {
+    transform: translate(100px,-100px); /*this is for both axis*/
+    /*transform: translateX(-50px);*/   /*this is for specific axis*/
+}
+
+#div5{
+    height : 150px;
+    width : 150px;
+    font-size: 15x;
+    background-color : aqua;
+    border : 2px solid black;
+    transition: all 2s ease ;     
+}
+#div5:hover {
+    transform: skew(-45deg);
+    background-color: blue;
+}
+
+#div6 {
+    height : 100px;
+    width : 100px;
+    background-color: aqua;
+    border : 3px solid black;
+    position : absolute;
+
+    animation-name : myAnimation;
+    animation-duration: 2s;
+    animation-delay: 1s;      /*it will take a time to start animation*/
+    animation-iteration-count: infinite;    /*here we have the number of animation*/
+    animation-direction:alternate;     /*here we have many options*/
+    
+}
+
+@keyframes myAnimation {
+    from {
+        left: 10px;
+        background-color: yellowgreen;
+        
+    }
+    to {
+        left : 210px;
+        background-color: red;
+        color:whitesmoke
+    }
+}
+
+#div7 {
+    height : 100px;
+    width : 100px;
+    background-color :aqua;
+    border : 2px dashed black;
+    position : absolute;
+
+    animation-name: myAnimation2;
+    /*animation-name, duration, direction, deley-time, iteration-count*/
+    animation: myAnimation2 10s normal 1s infinite;
+}
+
+@keyframes myAnimation2 {
+   0%   { background-color: orange; }
+  25%  { background-color: rgba(255, 166, 0, 0.51); } /* Transparent orange */
+  50%  { background-color: white; }
+  75%  { background-color: rgba(0, 128, 0, 0.6); }   /* Transparent green */
+  87%  { background-color: #DAA520	; }                /* ✨ Yellow blend */
+  100% { background-color: orange; }     
+}
+
+#div7 {
+    filter: drop-shadow(2px 2px 15px rgb(228, 0, 0));
+}

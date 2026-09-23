@@ -1,0 +1,95 @@
+h1 {
+    /* we can set the height and width */
+    background-color: aquamarine;
+    height : 50px;
+    width : 200px;
+
+    border-width: 5px;
+    border-style :solid;
+    border-color : rgb(255, 0, 0);
+    /*text is aligned in the box not in the page */
+    text-align: center;
+}
+
+#di1 {
+    background-color: rgb(241, 10, 133);
+    width : 200px;
+    height : 100px;
+    /* we can give a border size,color,style*/
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color :rgb(3, 100, 255); */
+
+    /* border : size style color*/
+    border : 3px dashed rgb(3,100,255);
+    text-align: right;
+}
+
+#di2 {
+    background-color: rgb(241, 10, 133);
+    width : 100px;
+    height : 100px;
+    border : 3px dashed rgb(3,100,255);
+
+    border-radius: 15px;
+
+    /* for a circle we nedd to give radius 50% to a squre not for the rectangle*/
+    /* border-radius: 50%; */
+}
+
+#di3 {
+    background-color: rgb(241, 10, 133);
+    width : 100px;
+    height : 100px;
+    border : 3px dashed rgb(3,100,255);
+
+    /* padding : 10px;*/     /*same in all direction */
+
+    /* padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px; */
+
+    padding : 5px 10px 15px 20px;       /* top|right|bottom|left*/
+    /* padding is the distance between the box and content*/
+
+    margin : 20px 400px 10px 20px;       /*all method are same as padding*/
+    /*this is the distance between box and border of web-page*/
+    /* to understand the difference of margin padding show the output in chrome and
+    open inspect and change the value and we can see*/
+}
+
+#di4 {
+    background-color: pink;
+    display : inline;
+    /*button is not in the new line because it has 'display :block'*/
+}
+button {
+    display :block;
+}
+
+#di5 {
+    height : 100px;
+    width : 100px;
+    padding : 25px;
+    margin: 25px;
+    background-color : red;
+    /* with inline we can not adjust padding & margin at top & bottom */
+    /* for the solution we need to use inline-block */
+    
+    /* display: inline; */
+    display : inline-block;
+    
+}
+#di6 {
+    /*display: none;*/      /*when we write this space will not occupied for this block*/
+    visibility : hidden;    /*when we write this space will occupied for this but box will not print*/
+}
+
+/*
+->here a means alpha chennal
+->with the help of this we can make this color light or dark
+*/
+#b1{background-color: rgba(0,255,0,0.50);}
+#b2{background-color: rgba(0,255,0,0.75);}
+#b3{background-color: rgba(0,255,0,1);}

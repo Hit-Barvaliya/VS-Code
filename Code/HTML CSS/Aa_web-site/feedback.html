@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="feedback.css">
+
+   <script>
+      window.onload = function() {
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", function(e) {
+          e.preventDefault(); 
+          
+          const name = document.getElementById("name").value.trim();
+          const email = document.querySelector("input[type='email']").value.trim();
+          const experience = document.querySelector("select[name='experience']").value;
+          const feedback = document.querySelector("textarea").value.trim();
+
+          if (name === "" || email === "" || experience === "select" || feedback === "") {
+            alert("Please fill out all fields properly.");
+            return;
+          }
+
+          const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+          if (!email.match(emailPattern)) {
+            alert("Please enter a valid email address.");
+            return;
+          }
+
+          alert("Thank you for your feedback, " + name + "!");
+
+          form.reset();
+        });
+      };
+</script>
+
+
+  </head>
+  <body>
+
+    <center>
+    <button><a href="index.html"><img src ="logo.png" height="50"></a></button>
+      <div id="formstyle">
+        <!-- <center> -->
+          <form>
+            <h2><u>Feedback Form</u></h2>
+            <!-- Your Name :- <br> -->
+             <label for="name"> Your Name :- </label> 
+            <!-- <input type="text" placeholder="Username"><br><br> -->
+             <input type="text" id="name" name="name" required placeholder="Name"><br><br>
+            <!-- E mail Address :- <br> -->
+            <label for="mailid"> Email Address :- </label>
+            <input type="email" placeholder="Email ID"><br><br>
+            <!-- Rate Your Experience :- <br> -->
+             <label for="exper"> Rate Your Experience :- </label>
+            <!-- <input type="text" placeholder="Give Rating 1 to 5"><br><br> -->
+             <select name="experience">zz
+              <option value="select">select</option>
+              <option value="Excellent">&#9733 &#9733 &#9733 &#9733 &#9733 Excellent</option>
+              <option value="Good">&#9733 &#9733 &#9733 &#9733 &#9734 Good</option>
+              <option value="Average">&#9733 &#9733 &#9733 &#9734 &#9734 Average</option>
+              <option value="Poor">&#9733 &#9733 &#9734 &#9734 &#9734 Poor</option>
+              <option value="=Very poor">&#9733 &#9734 &#9734 &#9734 &#9734 Very Poor</option>
+             </select><br><br>
+            <!-- Share your experience :-   -->
+             <label for="name"> Share Your Experience :- </label>
+          
+             <textarea placeholder="please give your feedback here" rows="3"></textarea><br><br>
+            <input  type="submit" value="submit" style="width: 170;">
+            </form>
+          
+        <!-- </center> -->
+      </div>
+
+    </center>
+
+  </body>
+</html>

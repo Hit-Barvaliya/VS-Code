@@ -1,0 +1,57 @@
+.festival-img{
+    height: 100px;
+}
+#but  {
+    text-align: right;
+}
+
+#bhangra{
+    height: 300px;
+    width : 700px;
+    background-color: #FFD700;  
+    color : #8B0000 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#bihu{
+    height: 300px;
+    width : 700px;
+    background-color: #32CD32;  
+    color : #ffffff ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#garba{
+    height: 300px;
+    width : 700px;
+    background-color: #FF7F50;  
+    color : #4b0082 ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#bharatnatyam{
+    height: 300px;
+    width : 700px;
+    background-color: #800000;  
+    color : #ffd700;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#matki{
+    height: 300px;
+    width : 700px;
+    background-color: #87CEEB;  
+    color : #2f4f4f ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}

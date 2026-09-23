@@ -1,0 +1,81 @@
+#diwali{
+    height: 300px;
+    width : 700px;
+    background-color: #fff8dc;
+    color : #D2691E ;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+ 
+.festival-img{    
+    height: 100px;
+}
+#but  {
+    text-align: right;
+}
+#holi{
+    height: 300px;
+    width : 700px;
+    background-color: #FDEEF4;
+    color : #880e4f;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+ 
+#eid{
+    height: 300px;
+    width : 700px;
+    background-color: #E8F5E9;
+    color : #1b5e20;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#christmas{
+    height: 300px;
+    width : 700px;
+    background-color: #FFF8DC  ;
+    color : #8b4513;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+
+
+
+      /* Slider styles */
+    #slider {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .slide {
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+
+    #slider button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      font-size: 10px;
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+
+    #prev { left: 0; }
+    #next { right: 0; }
+  

@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+
+body {
+  background: url('Flag1.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginbox {
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;      
+  max-width: 400px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);        /*-------------------------*/
+  border: 2px solid #1A237E;
+}
+
+.loginbox h2 {
+  text-align: center;
+  color: #1A237E;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;       
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+
+.loginbox button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #1A237E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loginbox button:hover {
+  background-color: #0D1B2A;
+}
+
+.loginbox .links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.loginbox .links a {
+  color: #1A237E;
+}
+
+.loginbox .links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #loginbox{
+    height: 300px;
+    width: 400px;
+    border: 2px solid blue;
+    background-color: rgb(255,255,255,0.8);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5%;
+} */

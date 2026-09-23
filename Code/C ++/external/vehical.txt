@@ -1,0 +1,20 @@
+add new two-wheeler :- 
+name of owner is :- wsdc
+entry time is :- 32 : 1
+exit time is :- 23 : 2
+vehical_number is :- 1
+helmet type locker is :- 1qw2
+
+add new two-wheeler :- 
+name of owner is :- hit
+entry time is :- 10 : 20
+exit time is :- 11 : 40
+vehical_number is :- GJ05KP1234
+helmet type locker is :- yas
+
+add new two-wheeler :- 
+name of owner is :- RISHABHentry time is :- 10 : 20
+exit time is :- 11 : 40
+vehical number is :- GJ17XY5678
+valet service type is :- NO
+

@@ -1,0 +1,15 @@
+div {
+    height: 100px;
+    width : 100px;
+
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+
+    position: fixed;
+    bottom: 100px;
+    right : 10px;
+}
+/* body {
+    background-image: url("cat_photo.jpg");
+    background-size: contain;
+} */

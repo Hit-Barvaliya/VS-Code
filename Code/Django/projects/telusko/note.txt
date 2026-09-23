@@ -1,0 +1,10 @@
+'{{}}' is jinja 
+
+when we start to run code on the server it will execute based on the url
+-> it will follow the url-list of telusko/urls.py
+-> to run the html page we nedd changes in telusko/settings.py 'DIRS': [BASE_DIR,'templates'],
+
+
+-> if we make a get method in home.html then we remove the csrf_tocken line and change the method in calc/views.py with num1 = request.GET['num1']
+
+

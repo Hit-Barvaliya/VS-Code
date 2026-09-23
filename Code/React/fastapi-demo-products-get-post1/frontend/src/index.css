@@ -1,0 +1,17 @@
+:root{
+  --bg1: #6e4ee9;
+  --bg2: #8a6fe3;
+  --card: #fff;
+  --muted: #7d7d85;
+  --accent: #6e4ee9;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  -webkit-font-smoothing:antialiased;
+  color: #111;
+}

@@ -1,0 +1,94 @@
+
+# ==> this is about the List
+
+"""
+📌 4. Using Lists in Loops
+
+Example:
+
+for i in [5,4,3,2,1]:
+    print(i)
+
+
+Lists can be used directly in for loops.
+
+📌 7. Length of a List
+
+len(list) returns the number of elements.
+
+📌 8. Using range() with Lists
+
+range(n) creates a list of numbers from 0 to n-1.
+
+Helpful for index-based loops:
+
+for i in range(len(friends)):
+    print(friends[i])
+
+📌 9. Two Types of Loops
+Loop through items:
+for friend in friends:
+    print(friend)
+
+Loop through indexes:
+for i in range(len(friends)):
+    print(friends[i])
+
+📌 12. List Methods
+
+Common list methods:
+
+append()
+extend()
+insert()
+pop()
+remove()
+sort()
+reverse()
+count()
+index()
+
+📌 17. Built-in Functions on Lists
+
+len(list)
+max(list)
+min(list)
+sum(list)
+average = sum(nums) / len(nums)
+
+18. Strings and Lists Together
+
+Using .split():
+
+abc = "With three words"
+stuff = abc.split()
+# ['With', 'three', 'words']
+
+📌 19. Split and Delimiters
+
+Default split → splits on any amount of whitespace.
+
+Custom delimiter:
+
+line = 'first;second;third'
+line.split(';')  # ['first','second','third']
+
+"""
+
+"""
+📌 14. Append vs Extend
+append()
+
+Adds the whole object:
+
+stuff.append([4,7])
+# ['book', 99, [4,7]]
+
+extend()
+
+Adds elements individually:
+
+stuff.extend([4,7])
+# ['book', 99, 4, 7]
+
+"""

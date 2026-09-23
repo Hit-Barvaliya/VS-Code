@@ -1,0 +1,100 @@
+*{
+    background-color: #A6A580;
+}
+#a1{
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.a2{
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+#a3:hover{
+    margin-left: 30px;
+    font-size: 25px;
+    color: rgb(11, 11, 241);
+}
+#a1:hover{
+    font-weight: 400;
+    color: #161610;
+}
+#b1{
+    margin-top: 50px;
+    float: left;
+    margin-left: 80px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(190, 206, 82);
+    color: rgb(255, 255, 255);
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+#b1:hover{
+    transform: scale(1.1);
+}
+
+#a4{
+    border: 1px solid black;
+    margin-left: 20px;
+    transition: transform 1.2s ease-in;
+    filter: drop-shadow(2px 2px 15px rgb(233, 141, 11));
+    transform: scale(0.9);
+}
+#a4:hover{
+    transform: scale(1);
+    
+}
+#a4 img{
+    transition: tranform o.5s;
+    box-shadow: 0.5s;
+}
+#a4 img:hover{
+    transform: rotate(5deg);
+    scale: (1.02);
+}
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
+.a5{
+    animation-name: a5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a5 {
+    from{
+        margin-left: 20px;
+        transform: scale(1);
+    }
+    to{
+        margin-left: 50px;
+        transform: scale(1.2);
+    }
+}
+@media (max-width:1135px) {
+    #b1{
+    margin-right: 80px;
+    display: block;
+    flex-direction: column;
+    }
+@media (max-width:605px) {
+        .a2 {
+            height: 300px;
+            width: 500px;
+            margin-left: -15px;
+        }
+        .nav{
+            height: 150px;
+            
+        }
+    }
+}

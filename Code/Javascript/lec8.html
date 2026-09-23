@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="lec8.html"> -->
+
+    <style>
+        #box,#box2{
+            height: 150px;
+            width: 150px;
+            /* background-color: cornflowerblue; */
+            margin: 10px;
+            border : 10px double darkblue;
+            padding: 10px;
+        }
+        .lightMode{
+            background-color: white;
+            color : black;
+        }
+        .darkMode{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>  <!-- 7:07 -->
+
+    <!--
+    The change in the state of an object is known as an Event
+    Events are fired to notify code of "interesting changes" that may affect code execution.
+    • Mouse events (click, double click etc.)
+    • Keyboard events (keypress, keyup, keydown)
+    • Form events (submit etc.)
+    • Print event & many more
+
+    for more reference visit MDN Reference on google
+    -->
+    
+    <!-- when we write event in HTML, it called inline Event Hadnling -->
+    <button onclick="console.log('Button was clicked one time.')">Click Me!</button>
+    
+    <button ondblclick="console.log('Button was clicked 2x.')" id="but2">Click Me 2 times!!</button>
+
+    <div id="box">This is box</div>
+
+    <div id="box2">This is box2
+        <button id="button3">Click me!!</button>
+    </div>
+
+    <button id="button4">^o^ Button 4 ^o^</button>
+
+    <!-- This is practice Question -->
+    <button id="mode">Change Mode O(∩_∩)O </button>
+    
+    <!-- this button is not working -->
+    <button id="mode2">Change Mode2 O(∩_∩)O </button>
+
+    <script src="lec8.js"></script>
+</body>
+</html>

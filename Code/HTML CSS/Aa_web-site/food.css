@@ -1,0 +1,47 @@
+
+.festival-img{
+    height: 100px;;
+}
+#but  {
+    text-align: right;
+}
+#northfood{
+    height: 300px;
+    width : 700px;
+    background-color: #ff9933;  /*800000*/
+    color : #fdf6e3;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#eastfood{
+    height: 300px;
+    width : 700px;
+    background-color: #FFDB58 ;  /*D2691E*/
+    color : #4b2e2e;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#westfood{
+    height: 330px;
+    width : 700px;
+    background-color: #007BA7 ;
+    color : white;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}
+#southfood{
+    height: 300px;
+    width : 700px;
+    background-color: #f0f0e9 ;  
+    color : black;
+    text-align: left;
+    padding: 20px;
+    padding-top: none;
+    margin : 40px
+}

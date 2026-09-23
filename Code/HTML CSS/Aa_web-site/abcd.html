@@ -1,0 +1,245 @@
+<!--  This is practical if about sliding window -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Portal Page</title>
+  
+    <link rel="stylesheet" href="abcd.css">
+
+</head>
+<body>
+
+  <h2>📌 Collapsible FAQs</h2>
+  <div>
+    <div class="faq-question">➤ What is DOM?</div>
+    <div class="faq-answer">DOM stands for Document Object Model. It represents the structure of a webpage.</div>
+
+    <div class="faq-question">➤ What is a portal?</div>
+    <div class="faq-answer">A portal is a web-based platform that gathers information and tools in one place.</div>
+  </div>
+
+  <h2> Popup Modal</h2>
+  <button id="popupBtn">Open Popup</button>
+
+  <div id="popupOverlay"></div>
+  <div id="popup">
+    <p>This is a popup message. Click outside or press close to dismiss.</p>
+    <button id="closePopup">Close</button>
+  </div>
+
+  <h2> Image Slider</h2>
+  <div id="slider" style="width: 300px; height: auto;">
+    <img src="diwali1.jpg" class="slide" style="display:block;">
+    <img src="holi1.jpg" class="slide">
+    <img src="tajmahal2.jpeg" class="slide">
+    <button id="prev">❮</button>
+    <button id="next">❯</button>
+    <p>Hello</p>
+  </div>
+
+
+  <script>
+    // FAQ toggle
+    document.querySelectorAll(".faq-question").forEach(q => {
+      q.addEventListener("click", () => {
+        const answer = q.nextElementSibling;
+        answer.style.display = answer.style.display === "block" ? "none" : "block";
+      });
+    });
+
+    // Popup
+    const popupBtn = document.getElementById("popupBtn");
+    const popup = document.getElementById("popup");
+    const popupOverlay = document.getElementById("popupOverlay");
+    const closePopup = document.getElementById("closePopup");
+
+    popupBtn.onclick = () => {
+      popup.style.display = "block";
+      popupOverlay.style.display = "block";
+    };
+
+    closePopup.onclick = () => {
+      popup.style.display = "none";
+      popupOverlay.style.display = "none";
+    };
+
+    popupOverlay.onclick = () => {
+      popup.style.display = "none";
+      popupOverlay.style.display = "none";
+    };
+
+    // Slider
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.display = i === index ? "block" : "none";
+      });
+    }
+
+    document.getElementById("next").onclick = () => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    };
+
+    document.getElementById("prev").onclick = () => {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    };
+  </script>
+
+</body>
+</html>
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQs - Indian Culture</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #3b3b3b;
+      margin-bottom: 30px;
+    }
+
+    .faq-category {
+      margin-bottom: 40px;
+    }
+
+    .faq-category h2 {
+      color: #004080;
+      border-left: 6px solid #004080;
+      padding-left: 10px;
+      font-size: 24px;
+    }
+
+    .accordion {
+      background-color: #ffffff;
+      color: #333;
+      cursor: pointer;
+      padding: 14px 20px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+      transition: 0.3s;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .active, .accordion:hover {
+      background-color: #e6f0ff;
+    }
+
+    .panel {
+      padding: 0 20px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .panel p {
+      margin: 12px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Frequently Asked Questions (FAQ)</h1>
+
+  <div class="faq-category">
+    <h2>General</h2>
+
+    <button class="accordion">What is the purpose of this website?</button>
+    <div class="panel"><p>This website promotes Indian culture through detailed sections on art, festivals, tourism, and traditions.</p></div>
+
+    <button class="accordion">Who can use this website?</button>
+    <div class="panel"><p>Anyone interested in Indian heritage, whether you're a student, traveler, or enthusiast.</p></div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Art & Heritage</h2>
+
+    <button class="accordion">What are the major forms of ancient Indian art?</button>
+    <div class="panel"><p>They include temple carvings, cave paintings, sculptures, and early manuscripts.</p></div>
+
+    <button class="accordion">What is mural painting?</button>
+    <div class="panel"><p>Mural painting refers to large artworks directly painted on walls, especially seen in Kerala and Rajasthan.</p></div>
+
+    <button class="accordion">How are Indian handicrafts categorized?</button>
+    <div class="panel"><p>Handicrafts are shown based on materials like wood, textiles, clay, and metal, each reflecting regional styles.</p></div>
+
+    <button class="accordion">What defines modern Indian art?</button>
+    <div class="panel"><p>Modern Indian art blends traditional themes with contemporary styles post-independence.</p></div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Tourism</h2>
+
+    <button class="accordion">How are destinations classified?</button>
+    <div class="panel"><p>Destinations are grouped by type: hill stations, temples, beaches, forts, and cultural places.</p></div>
+
+    <button class="accordion">Are these destinations suitable for family trips?</button>
+    <div class="panel"><p>Yes, most destinations include historical, natural, and spiritual attractions for all ages.</p></div>
+
+    <button class="accordion">Can I explore spiritual places here?</button>
+    <div class="panel"><p>Yes, the site includes spiritual journeys through temples and pilgrimage centers across India.</p></div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Festivals & Culture</h2>
+
+    <button class="accordion">Which festivals are featured?</button>
+    <div class="panel"><p>The website highlights major Indian festivals like Diwali, Holi, Navratri, and Pongal with cultural significance.</p></div>
+
+    <button class="accordion">Is the festival info region-specific?</button>
+    <div class="panel"><p>Yes, festivals are shown with regional variations, such as Onam in Kerala or Bihu in Assam.</p></div>
+
+    <button class="accordion">Can I learn the history behind each festival?</button>
+    <div class="panel"><p>Absolutely! Each festival page includes historical and cultural context.</p></div>
+  </div>
+
+  <div class="faq-category">
+    <h2>Account & Access</h2>
+
+    <button class="accordion">Do I need to log in to access content?</button>
+    <div class="panel"><p>No, all cultural content is freely available without login.</p></div>
+
+    <button class="accordion">Is this website mobile-friendly?</button>
+    <div class="panel"><p>Yes, it works smoothly on phones, tablets, and desktops.</p></div>
+
+    <button class="accordion">Is there a dark mode available?</button>
+    <div class="panel"><p>Yes, the site supports dark mode for comfortable viewing.</p></div>
+  </div>
+
+  <script>
+    const acc = document.getElementsByClassName("accordion");
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === "block" ? "none" : "block";
+      });
+    }
+  </script>
+
+</body>
+</html>
+
+-->

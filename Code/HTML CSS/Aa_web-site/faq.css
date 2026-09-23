@@ -1,0 +1,92 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf7;
+      color: #3b1f14;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: royalblue;
+      padding: 25px;
+
+      color: gold;
+      font-size: 34px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 4px solid #f9a825;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .faq-category {
+      margin-bottom: 40px;
+    }
+
+    .faq-category h2 {
+      color: royalblue;
+      border-left: 6px solid #fbc02d;
+      padding-left: 12px;
+      font-size: 24px;
+      margin-bottom: 18px;
+    }
+
+    .accordion {
+      background-color: #fff3e0;
+      color: #3b1f14;
+      cursor: pointer;
+      padding: 14px 20px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 17px;
+      transition: 0.3s;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #e0b57f;
+    }
+
+    .accordion:hover {
+      background-color: #ffe0b2;
+    }
+
+    .active {
+      background-color: #ffd180;
+    }
+
+    .panel {
+      padding: 0 20px;
+      display: none;
+      background-color: #fff8e1;
+      overflow: hidden;
+      border-left: 3px solid #fbc02d;
+      margin-bottom: 10px;
+      border-radius: 0 0 6px 6px;
+    }
+
+    .panel p {
+      padding: 12px 0;
+      color: #5d4037;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #7c6f61;
+      font-size: 14px;
+      background-color: #fce4ec;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 26px;
+      }
+      .accordion {
+        font-size: 15px;
+      }
+    }
